@@ -1,0 +1,15 @@
+.contacts__contact {
+  color: var(--primary-text-color);
+
+  transition-property: color;
+  @extend %transition;
+  &:hover,
+  &:focus {
+    color: var(--accent-color);
+  }
+}
+
+.contacts__icon {
+  fill: currentColor;
+  margin-right: 10px;
+}

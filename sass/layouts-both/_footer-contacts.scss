@@ -1,0 +1,32 @@
+.footer {
+  background-color: var(--background-hero-footer);
+  padding: 60px 0;
+}
+
+.footer-main {
+  display: flex;
+  align-items: baseline;
+}
+
+.footer-contacts {
+  margin-right: 70px;
+}
+
+.footer .adress,
+.footer .contact {
+  text-decoration: none;
+  @include font(null, 14px, calc(24 / 14), 0.03em);
+  font-style: normal;
+}
+
+.footer .adress {
+  color: var(--white-color);
+}
+
+.footer .contact {
+  color: var(--footer-contacts);
+}
+
+.footer-item:not(:last-child) {
+  margin-bottom: 9px;
+}
